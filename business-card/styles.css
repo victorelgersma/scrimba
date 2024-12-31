@@ -1,0 +1,44 @@
+body {
+  margin: 20px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+:root {
+  --color-secondary: #4a4e69;
+  --color-primary: #f2e9e4;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: var(--color-primary);
+  color: #2b2839;
+  border-bottom: 6px solid var(--color-secondary);
+  border-radius: 2px;
+
+  /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
