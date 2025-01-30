@@ -8,6 +8,24 @@ DARK BLUE: #1D3557
 
 */
 
+* {
+  box-sizing: border-box;
+}
+
+#hero h1,
+h2 {
+  background-color: black;
+}
+
+#hero {
+  background-image: url("https://picsum.photos/400/400");
+  background-size: cover;
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 body {
   margin: 0;
   text-align: center;
