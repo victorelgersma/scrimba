@@ -8,13 +8,17 @@ DARK BLUE: #1D3557
 
 */
 
-* {
-  box-sizing: border-box;
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero h1,
 h2 {
-  background-color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5%;
 }
 
 #hero {
